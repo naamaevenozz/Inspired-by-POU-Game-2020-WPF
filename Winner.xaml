@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApplication1.Winner"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Winner" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/Winner.jpg"/>
+        </Grid.Background>
+        <Label Content="YOU ARE THE WINNER!" HorizontalAlignment="Left" Height="80" Margin="204,182,0,0" VerticalAlignment="Top" Width="352" FontWeight="Bold" FontSize="30" Background="{x:Null}" Foreground="#FFBB3939" FontFamily="Showcard Gothic"/>
+
+    </Grid>
+</Window>
